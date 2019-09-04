@@ -1,0 +1,2 @@
+|_________________________________________________________________________________________________________________|
+|  Next page => RightArrow  |  Previous page  =>  LeftArrow  |  First page  =>  F  |  Exit to Main menu  =>  F10  |

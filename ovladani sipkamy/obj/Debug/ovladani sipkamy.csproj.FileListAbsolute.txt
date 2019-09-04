@@ -1,0 +1,6 @@
+C:\Users\Jaja-new\RiderProjects\ovladani sipkamy\ovladani sipkamy\obj\Debug\ovladani sipkamy.csprojAssemblyReference.cache
+C:\Users\Jaja-new\RiderProjects\ovladani sipkamy\ovladani sipkamy\obj\Debug\ovladani sipkamy.csproj.CoreCompileInputs.cache
+C:\Users\Jaja-new\RiderProjects\ovladani sipkamy\ovladani sipkamy\bin\Debug\Formule1.exe
+C:\Users\Jaja-new\RiderProjects\ovladani sipkamy\ovladani sipkamy\bin\Debug\Formule1.pdb
+C:\Users\Jaja-new\RiderProjects\ovladani sipkamy\ovladani sipkamy\obj\Debug\Formule1.exe
+C:\Users\Jaja-new\RiderProjects\ovladani sipkamy\ovladani sipkamy\obj\Debug\Formule1.pdb

@@ -1,0 +1,57 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {},
+    ".NETFramework,Version=v4.6.1/win": {},
+    ".NETFramework,Version=v4.6.1/win-x64": {},
+    ".NETFramework,Version=v4.6.1/win-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Jaja-new\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jaja-new\\RiderProjects\\ovladani sipkamy\\ovladani sipkamy\\ovladani sipkamy.csproj",
+      "projectName": "ovladani sipkamy",
+      "projectPath": "C:\\Users\\Jaja-new\\RiderProjects\\ovladani sipkamy\\ovladani sipkamy\\ovladani sipkamy.csproj",
+      "packagesPath": "C:\\Users\\Jaja-new\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jaja-new\\RiderProjects\\ovladani sipkamy\\ovladani sipkamy\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Jaja-new\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

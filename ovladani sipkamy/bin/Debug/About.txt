@@ -1,0 +1,59 @@
+﻿
+                                              |Třídy a jejich metody|    
+
+| SplashScreen         -> Poskytuje úvodní náhled do programu.                                                    |
+|    - SplashScreen    - Před spuštěním programu vypíše úvodní obrazovku.                                         | 
+|                                                                                                                 |                                      
+| Program      -> Snaží se dostat program do hlavního menu.                                                       |
+|    - Main    - Spouští třídu Menu.                                                                              |
+|                                                                                                                 |
+| Menu         -> Je hlavní třída celého programu.                                                                |
+|    - Menu    - Spouští jednotlivé sekce programu.                                                               |
+|    - Enter   - Spouští zvolenou sekci.                                                                          |
+|                                                                                                                 |
+| Animation    -> Je druhá nejdůležitější třída celého programu protože se stará o hru po zvolení možnosti Start. |
+|    - Animation       - Začne hru když v Menu zvolíte možnost Start.                                             |
+|    - CheckKolision   - Při každém zavolání této metody skontroluje zda formule(Car) nenarazila do kamene(Stone).|
+|                         - Pokud formule narazí do kamene okamžitě se odečte jeden život.                        |
+|    - CteniKlavesnice - Při stisknutí levé nebo pravé šipky podá informaci, o tom která šipka byla stisknuta.    |
+|    - MoveLeft        - Posune formuli do leva.                                                                  |
+|    - MoveRight       - Posune formuli do Prava.                                                                 |
+|    - ClearOldStones  - Smaže kameny(stones), které jsou mimo hranice vykreslované cesty.                        |
+|                                                                                                                 |
+| Car          -> Patří ke třídě Animation.                                                                       |
+|    - PaintCar - Vymalovává formuli a určuje její pozici.                                                        |
+|                                                                                                                 |
+| Stone        -> Patří ke třídě Animation.                                                                       |
+|    - Stone           - Generuje náhodnou pozici pro každý kámen.                                                |
+|    - VykresliSe      - Udává místo na kterém se má kámen/překážka vykreslit.                                    |
+|    - Fall            - Při každém provolání této metody posune každý kámen o jednu úroveň dolů.                 |
+|    - SetToRemove     - Když je objekt kámen na smazání označí ho hodnotou -true-.                               |
+|    - IsStoneToDelete - Předá informaci o smazání kamene do řídící metodě Animation.                             |
+|    - GetPositionX    - Předá informaci o pozici X do řídící metody Animation.                                   |
+|    - GetPositionY    - Předá informaci o pozici Y do řídící metody Animation.                                   |
+@@@@@
+
+                                             |Třídy a jejich metody|    
+                                       
+| Option       -> Mění základní hodnoty ve hře.                                                                   |
+|    - Option  - Slouží jako seznam nastavení hry.                                                                |
+|    - Enter   - Spouští zvolenou část programu.                                                                  |
+|                                                                                                                 |
+| RoadType     -> Patří ke třídě Option a nastavuje tvar silnice.                                                 |
+|    - RoadType - Nastavuje typ cesty.                                                                            |
+|    - Enter    - Ukládá možnosti zvolené uživatelem.                                                             |
+|                                                                                                                 |
+| Health       -> Patří ke třídě Option a nastavuje počet životů.                                                 |
+|    - Health   - Nastaví počet životů od 1 do 10 podle toho kolik zadá uživatel.                                 |
+|    - Enter    - Ukládá možnosti zvolené uživatelem.                                                             |
+|                                                                                                                 |
+| Speed         -> Patří ke třídě Option a nastavuje rychlost formule.                                            |
+|    - Speed    - Nastaví rychlost podle toho jakou zvolí uživatel.                                               |
+|    - Enter    - Ukládá možnosti zvolené uživatelem.                                                             |
+|                                                                                                                 |
+| AboutProgram             -> Předává informace o programu                                                        |
+|    - AboutProgram        - Spouští metody ReadDocumentation a ControlPresentation.                              |
+|    - ReadDocumentation   - Čte ze souboru dokumentaci, kterou právě čtete.                                      |
+|    - ControlPresentation - Určuje která stranka se má vykreslit.                                                |
+|    - PrintPage           - Vykresluje stránku, kterou určila metoda ControlPresentation                         |
+@@@@@
