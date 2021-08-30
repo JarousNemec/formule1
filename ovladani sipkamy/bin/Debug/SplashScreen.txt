@@ -20,4 +20,4 @@
 '|         |-------------------~~~~~~~~~~~~~~~~~~-----------------|         |'
   \_______/                                                        \_______/
 
-                   Copyright (C) 2019 by Mrkvosoft Corporation
+                      Copyright (C) 2019 by Jaroslav Němec 
